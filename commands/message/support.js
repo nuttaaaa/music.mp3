@@ -25,7 +25,8 @@ module.exports = {
                 .setColor(0x1DB954)
                 .setDescription(
                     'Need help or have questions? Join our official support server:\n' +
-                    '[Support Server](https://discord.gg/WZN5ARrmbX)\n\n' + )
+                    '[Support Server](https://discord.gg/WZN5ARrmbX)\n\n' + 
+                )
                 .setTimestamp()
             
             await message.reply({ embeds: [embed] });
@@ -35,6 +36,7 @@ module.exports = {
         }
     }
 };
+
 
 
 
