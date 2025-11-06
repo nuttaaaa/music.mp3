@@ -30,7 +30,6 @@ module.exports = {
                     'Website: https://glaceyt.com'
                 )
                 .setTimestamp()
-                .setFooter({ text: 'Ultimate Music Bot • Developed by GlaceYT' });
             
             await message.reply({ embeds: [embed] });
         } catch (error) {
@@ -39,3 +38,4 @@ module.exports = {
         }
     }
 };
+
